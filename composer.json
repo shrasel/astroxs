@@ -1,0 +1,43 @@
+{
+    "name": "shrasel/astroxs",
+    "description": "Complete Authentication, Authorization, and Role & Privilege Management for Laravel 12",
+    "keywords": ["laravel", "authentication", "authorization", "rbac", "roles", "privileges", "sanctum"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shrasel"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^12.0",
+        "illuminate/database": "^12.0",
+        "illuminate/console": "^12.0",
+        "laravel/sanctum": "^4.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0",
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shrasel\\Astroxs\\": "src/",
+            "Shrasel\\Astroxs\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Shrasel\\Astroxs\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shrasel\\Astroxs\\AstroxsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
