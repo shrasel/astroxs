@@ -1,7 +1,5 @@
 # Astroxs
 
-![Astroxs Banner](https://via.placeholder.com/1200x300/6366f1/ffffff?text=Astroxs+-+Laravel+Authentication+%26+Authorization)
-
 **Complete Authentication, Authorization, and Role & Privilege Management for Laravel 12**
 
 Astroxs is the ultimate RBAC (Role-Based Access Control) solution for Laravel 12. It provides full authentication with Laravel Sanctum, role-based access control, fine-grained privileges, user suspension workflows, 40+ CLI commands, 7 Blade directives, middleware, and optional REST API endpoints.
